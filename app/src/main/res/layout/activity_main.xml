@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp"
+    tools:context=".MainActivity">
+
+    <ExpandableListView
+        android:id="@+id/expandable_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/data_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sorted_lists_data"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/unique_listIds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/total_fetched"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/total_empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/total_null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/total_discarded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/total_remaining"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</LinearLayout>

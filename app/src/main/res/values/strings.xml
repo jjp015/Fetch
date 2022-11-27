@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fetch</string>
+    <string name="list_id_title">listId: %1$d</string>
+    <string name="expanded_list_item">Item %1$d</string>
+    <string name="sorted_lists_data">Sorted Lists Data</string>
+    <string name="unique_listIds">Unique Ids: %1$d</string>
+    <string name="total_fetched">Items fetched: %1$d</string>
+    <string name="total_empty">Empty names: %1$d</string>
+    <string name="total_null">Null names: %1$d</string>
+    <string name="total_discarded">Discarded: %1$d</string>
+    <string name="total_remaining">Total: %1$d</string>
+
+</resources>
